@@ -15,7 +15,6 @@ namespace Player
             var directory = "c:\\WavSongs";
             var player = new Player(new ColorSkin(ConsoleColor.Red));
             player.Volume = 20;
-
             int totalDuration = 0;
 
             player.Play();
